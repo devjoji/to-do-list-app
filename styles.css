@@ -1,0 +1,124 @@
+body {
+    font-family: 'Markdown', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #2F3A32, #545748, #DB9F75, #804012, #3E2411);
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #DB9F75; /* burlywood */
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #DB9F75;
+    box-shadow: 0 0 5px rgba(219, 159, 117, 0.5);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.delete-btn,
+.cross-out-btn,
+.edit-btn,
+.clear-all-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover,
+.cross-out-btn:hover,
+.edit-btn:hover,
+.clear-all-btn:hover {
+    background-color: #c82333;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #aaa;
+    opacity: 0.6;
+}
+
+.clear-all-btn {
+    background-color: #343a40;
+    margin-top: 20px;
+}
+
+.clear-all-btn:hover {
+    background-color: #23272b;
+}
+
+.edit-input {
+    width: calc(100% - 160px);
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+footer a {
+    color: #b80202; /* burlywood */
+    text-decoration: none;
+    font-size: 1.2rem; /* Increase font size */
+    font-weight: bold; /* Make it bold */
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #df2e22; /* brown */
+}
+
