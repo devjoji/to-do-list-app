@@ -111,14 +111,14 @@ footer {
 }
 
 footer a {
-    color: #b80202; /* burlywood */
+    color: #b80202; 
     text-decoration: none;
-    font-size: 1.2rem; /* Increase font size */
-    font-weight: bold; /* Make it bold */
+    font-size: 1.2rem; 
+    font-weight: bold; 
     transition: color 0.3s;
 }
 
 footer a:hover {
-    color: #df2e22; /* brown */
+    color: #df2e22; 
 }
 
