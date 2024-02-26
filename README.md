@@ -13,7 +13,7 @@ This is a simple to-do list app built with HTML, CSS, and JavaScript. It allows 
 
 ## Screenshots
 
-![Screenshot 1](/screenshot.png)
+![Screenshot 1](screenshot.PNG)
 
 ## Contributing
 
